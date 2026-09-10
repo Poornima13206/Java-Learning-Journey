@@ -9,5 +9,6 @@ public class Addition {
     int num2 = input.nextInt();
     int add = num1 + num2;
     System.out.println("addation of two numbers is : " +add);
+    input.close();
   }
 }

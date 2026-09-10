@@ -1,3 +1,5 @@
+package programs;
+
 import java.util.Scanner;
 
 public class SimpleIntrest {
@@ -13,5 +15,6 @@ public class SimpleIntrest {
     int SI = (p * t * r)/100;
 
     System.out.println("Simple intrest is :" + SI);
+    input.close();
   }
 }

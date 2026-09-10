@@ -1,3 +1,5 @@
+package programs;
+
 import java.util.Scanner;
 
 public class Rectangle {
@@ -16,6 +18,7 @@ public class Rectangle {
 
     System.out.println("area of a rectangle is :" + area);
 
-    System.out.println("Preimeter of a rectangle is :" + perimeter);
+    System.out.println("Perimeter of a rectangle is :" + perimeter);
+    input.close();
   }
 }

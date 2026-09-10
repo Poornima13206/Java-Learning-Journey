@@ -1,3 +1,5 @@
+package programs;
+
 import java.util.Scanner;
 
 public class Square {
@@ -15,6 +17,7 @@ public class Square {
 
     System.out.println("area of a square is :" + area);
 
-    System.out.println("Preimeter of a square is :" + perimeter);
+    System.out.println("Perimeter of a square is :" + perimeter);
+    input.close();
   }
 }
