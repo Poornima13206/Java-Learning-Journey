@@ -8,6 +8,7 @@ public class Factorial {
     System.out.print("Enter a number : ");
     int n = input.nextInt();
     int multi = mul(n);
+    System.out.println("The sum of digits is : " +multi);
     input.close();
 }
 
