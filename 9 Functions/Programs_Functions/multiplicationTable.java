@@ -7,7 +7,6 @@ public class multiplicationTable {
   int num = input.nextInt();
   Multiplication(num);
   //Tables(num);
-
     input.close();
   }
   
@@ -31,5 +30,6 @@ public class multiplicationTable {
     }
   
   //input.close();
+  
 
 }

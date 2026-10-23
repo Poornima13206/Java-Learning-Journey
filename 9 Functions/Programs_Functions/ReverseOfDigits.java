@@ -3,18 +3,14 @@ import java.util.Scanner;
 public class ReverseOfDigits {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.println("Enter the digits :");
     System.out.print("Enter the digits : ");
     int num = input.nextInt();
     int rev = reverse(num);
-    System.out.println("The reverse of the digits "+num+"is : " +rev);
     System.out.println("The reverse of the digits "+num+" is : " +rev);
     input.close();
   }
 
   public static int reverse(int num){
-    int i =0,rev=0;
-    while (i<=num) {
     int rev=0;
     while (num>0) {
       int digits = num%10;

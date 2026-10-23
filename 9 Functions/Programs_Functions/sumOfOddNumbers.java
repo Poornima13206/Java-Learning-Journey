@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class sumOfOddNumbers {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.println("Enter the number: ");
     System.out.print("Enter the number: ");
     int num = input.nextInt();
     int sum = Oddnumber(num);
