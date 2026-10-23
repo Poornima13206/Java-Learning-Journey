@@ -8,7 +8,6 @@ public class Factorial {
     System.out.print("Enter a number : ");
     int n = input.nextInt();
     int multi = mul(n);
-    System.out.println("Factorial of "+n+" is : " +multi);
     input.close();
 }
 
