@@ -4,10 +4,13 @@ public class SumOfDigits {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter the digit :");
+    System.out.print("Enter the digit : ");
     int num = input.nextInt();
     int sum = SumDigits(num);
     System.out.println("The sum of digits is :" +sum);
     //Scanner.close();
+    System.out.println("The sum of digits is : " +sum);
+    input.close();
   }
   public static  int SumDigits(int num){
     int i=1, sum =0;

@@ -8,6 +8,7 @@ public class multiplicationTable {
   Multiplication(num);
   //Tables(num);
 
+    input.close();
   }
   
   public static void Multiplication(int num){
